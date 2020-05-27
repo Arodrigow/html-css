@@ -1,0 +1,12 @@
+div{
+  width: 400px;
+  height: 200px;
+  border: 20px groove red;
+  background-image: url("https://i.pinimg.com/originals/0f/80/85/0f8085a7b52f7e63b8d02e734b62feb7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.second{
+  box-sizing: border-box;
+}
