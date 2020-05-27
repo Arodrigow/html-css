@@ -1,0 +1,42 @@
+h1{
+  text-shadow: -2px 2px 2px gray;
+}
+#first {
+  font-family: serif;
+}
+#second {
+  font-family: sans-serif;
+}
+#third {
+  font-family: Noto Sans JP, serif;
+  font-weight: 100;
+}
+#fourth {
+  font-family: Noto Sans JP, serif;
+  font-weight: 400;
+}
+#fifth{
+  font-family: Noto Sans JP, serif;
+  font-weight: 900;
+}
+
+#sixth{
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+#seventh{
+  word-spacing: 50px;
+}
+
+#eighth{
+  text-indent: 2em;
+}
+a{
+  font-size: 2em;
+  text-decoration-line: none;
+}
+
+a:hover{
+  text-decoration-line:underline;
+}
