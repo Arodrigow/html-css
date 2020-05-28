@@ -1,0 +1,25 @@
+.s1, .s2, .s3, .s4, .s5, .s6, .s7{
+  width: 14%;
+}
+
+.s1{
+  order: 3;
+}
+.s2{
+  order: 6;
+}
+.s3{
+  order: 1;
+}
+.s4{
+  order: 4;
+}
+.s5{
+  order:7;
+}
+.s6{
+  order: 5;
+}
+.s7{
+  order: 2;
+}

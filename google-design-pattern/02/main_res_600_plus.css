@@ -1,0 +1,25 @@
+.s1{
+  width: 50%;
+  order: 3;
+}
+.s2{
+  order: 6;
+}
+.s3{
+  order: 1;
+}
+.s4{
+  order: 4;
+}
+.s5{
+  width: 70%
+  order:7;
+}
+.s6{
+  width: 30%;
+  order: 5;
+}
+.s7{
+  width: 50%;
+  order: 2;
+}
