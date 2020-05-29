@@ -1,0 +1,22 @@
+header{
+  width: 100%;
+}
+
+.first{
+  width: 15%;
+  order: 2;
+}
+
+article{
+  width: 70%;
+  order: 3;
+}
+
+.second{
+  width: 15%;
+  order: 4;
+}
+
+footer{
+  width: 100%;
+}

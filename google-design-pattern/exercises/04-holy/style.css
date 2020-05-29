@@ -1,0 +1,31 @@
+*{
+  font-weight: bold;
+}
+header{
+  background: red;
+  text-align: center;
+  padding: 10px;
+}
+
+article{
+  background: lightblue;
+  padding: 25px 10px;
+}
+
+.first{
+  background: yellow;
+  padding: 10px;
+  text-align: center;
+}
+
+.second{
+  background: hotpink;
+  padding: 10px;
+  text-align: center;
+}
+
+footer{
+  background: lightgreen;
+  padding: 10px;
+  text-align: center;
+}

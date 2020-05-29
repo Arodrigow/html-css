@@ -1,0 +1,29 @@
+body{
+  flex-flow: row wrap;
+}
+
+header{
+  width: 100%;
+  order: 1;
+}
+
+article{
+  width: 100%;
+  order: 2;
+}
+
+aside{
+  width: 50%;
+}
+footer{
+  width: 100%;
+  order: 5;
+}
+
+.first{
+  order: 3;
+}
+
+.second{
+  order: 4;
+}
