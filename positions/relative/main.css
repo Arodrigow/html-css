@@ -1,0 +1,30 @@
+body, div{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 700px;
+  height: 510px;
+  margin: 0 auto;
+  border: 2px solid black;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+div{
+  border: 2px solid orange;
+  background: red;
+  width: 150px;
+  height: 170px;
+}
+
+#second{
+  position: relative;
+  top:10px;
+  left: 100px;
+}
