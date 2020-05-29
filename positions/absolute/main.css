@@ -1,0 +1,23 @@
+div{
+  border: 2px solid red;
+}
+
+#first{
+  position: relative;
+  top: 0;
+  left: 0;
+
+  width: 400px;
+  height: 400px;
+  background: orange;
+}
+
+#second{
+  position: absolute;
+  top: 150px;
+  right: 30px;
+
+  width: 150px;
+  height: 150px;
+  background: gray;
+}
