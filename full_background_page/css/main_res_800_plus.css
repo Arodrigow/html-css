@@ -1,0 +1,14 @@
+#indx-atf>div{
+  height: 25vh;
+}
+
+#indx-atf{
+  background-image: url("../img/background-photo.jpg");
+}
+
+h3{
+  margin-top: 5px;
+  font-size: 0.7rem;
+  text-align: center;
+  line-height: 1.2;
+}
