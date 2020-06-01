@@ -1,0 +1,40 @@
+html, body, div, button{
+  padding: 0;
+  /* border: 0; */
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 3vw;
+}
+
+#center{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-menu{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+
+  border-bottom: 2px solid darkgray;
+}
+
+.tab-menu button{
+  flex-grow: 1;
+  
+  border:0;
+  font-size: 1.5rem;
+  height: 3rem;
+
+  background-color: white;
+  border-bottom: 4px solid transparent;
+}
+
+.tab-menu button:hover{
+  border-bottom: 4px solid lightblue;
+}
