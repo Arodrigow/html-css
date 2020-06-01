@@ -1,0 +1,86 @@
+html, body, section,div, h1, svg, button{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#atf{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(120,170,255);
+}
+
+h1{
+  text-align: center;
+  font-size: 5.5rem;
+}
+
+#btf{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 3px solid rgb(120,120,180);
+
+  width: 80%;
+}
+
+#svg-spinner{
+  height:10%;
+  width: 10%;
+  fill: rgb(120,170,255);
+
+  animation-name: spin;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+#loading{
+  display: flex;
+}
+
+#buttons{
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+#buttons button{
+  height: 100%;
+  width: 8rem;
+  margin: 2rem;
+
+  font-size: 2rem;
+
+  cursor: pointer;
+}
+
+#bt1{
+  background-color: white;
+  color: rgb(120,170,255);
+}
+
+#bt2{
+  background-color: rgb(120,170,255);
+  color: white;
+  margin-right: 5%;
+}
+h2{
+  margin-left: 1rem;
+  font-size: 3rem;
+  color: rgb(120,170,255);
+}
