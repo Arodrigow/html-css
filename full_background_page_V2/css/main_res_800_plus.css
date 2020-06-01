@@ -7,9 +7,42 @@
   background-image: url("../img/background-photo.jpg");
 }
 
+
 h3{
   margin-top: 5px;
   font-size: 0.7rem;
   text-align: center;
   line-height: 1.2;
+}
+
+header{
+  justify-content: space-between;
+
+}
+
+header nav, header nav a, header svg{
+  display: flex;
+}
+header div, header nav{
+  width: 200px;
+  margin: 0 1rem;
+}
+
+.idx-icon-nav {
+  height: 100%;
+  width: 25px;
+  fill: currentColor;
+}
+
+header nav a:hover{
+  color:rgb(131,203,230);
+  border: 2px solid transparent;
+}
+
+header nav{
+  justify-content: space-between;
+}
+
+.nav-mobile{
+  display: none;
 }
