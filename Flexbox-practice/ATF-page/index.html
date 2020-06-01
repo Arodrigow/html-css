@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ATF page</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="display:none;">
+    <symbol id="archive" viewBox="0 0 100 100">
+      <path d="m 15.870633,84.367399 c 0,2.738713 2.212627,4.951345 4.951338,4.951345 h 59.416064 c 2.73871,0 4.951338,-2.212632 4.951338,-4.951345 V 39.805356 H 15.870633 Z M 40.627328,51.564788 c 0,-1.02121 0.835542,-1.856752 1.856751,-1.856752 h 16.091856 c 1.021211,0 1.856753,0.835542 1.856753,1.856752 v 1.237834 c 0,1.021214 -0.835542,1.856751 -1.856753,1.856751 H 42.484079 c -1.021209,0 -1.856751,-0.835537 -1.856751,-1.856751 z M 85.189373,20 h -69.31874 c -2.738709,0 -4.951338,2.212629 -4.951338,4.951338 v 7.427009 c 0,1.361619 1.114052,2.475671 2.475672,2.475671 h 74.270074 c 1.361627,0 2.475676,-1.114052 2.475676,-2.475671 V 24.951338 C 90.140717,22.212629 87.928083,20 85.189373,20 Z"
+    </symbol>
+  </svg>
+
+  <header>
+    <nav id="nav-left">
+      <button class="btn-l"><svg  id="nav-archive"><use xlink:href="#archive"></use></svg></button>
+      <button class="btn-l"> Inbox</button>
+      <button class="btn-l">Sent</button>
+      <button class="btn-l">Trash</button>
+    </nav>
+    <div id="nav-right">
+      <button class="btn-l">Settings</button>
+    </div>
+  </header>
+
+  <div id="atf">
+    <main>
+      <svg  id="svg-archive"><use xlink:href="#archive"></use></svg>
+      <h1>Are you in?</h1>
+    </main>
+  </div>
+
+</body>
+</html>

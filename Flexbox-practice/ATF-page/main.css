@@ -1,0 +1,94 @@
+html, body, div, svg, main, h1, header, nav, button{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 2vw;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+
+  background-color: rgba(47, 79, 79, 0.8);
+}
+
+#nav-left{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: inherit;
+}
+
+#nav-right{
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+
+.btn-l{
+  height: 30px;
+  margin: 0 0.4rem;
+  padding: 0 0.4rem;
+  border-radius: 5px;
+  background-color: inherit;
+
+  color: white;
+  font-size: 0.6rem;
+}
+
+#nav-archive{
+  height: inherit;
+  width: 2rem;
+  fill: currentColor;
+}
+
+.btn-l:hover{
+  background-color: gray;
+  color: pink;
+}
+
+#atf{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: WhiteSmoke;
+}
+
+#svg-archive{
+  height: 40%;
+  width: 40%;
+  fill: pink;
+  stroke: black;
+  stroke-width:0.4;
+}
+
+
+
+main{
+  font-size: 1.7rem;
+  height: 100%;
+  width: 100%;
+
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1{
+  color: gray;
+  text-transform: uppercase;
+}
