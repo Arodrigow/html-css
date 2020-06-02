@@ -1,0 +1,66 @@
+html, body, div, section, h1{
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+html{
+  font-size: 2vw;
+  color: RoyalBlue;
+  fill: RoyalBlue;
+}
+
+.atf{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+}
+
+.card{
+  height: 12rem;
+  width: 9rem;
+  border: 1px solid Navy;
+  border-radius: 5px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card > div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+  height: 80%;
+}
+
+.price{
+  height: 20%;
+  width: 100%;
+  background-color: SkyBlue;
+}
+.produt > svg{
+    width: 80%;
+    height: 80%;
+}
+.produt > h1{
+    width: 80%;
+    height: 20%;
+}
+
+h1{
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.card:hover{
+  box-shadow: -2px 2px 2px black;
+}
