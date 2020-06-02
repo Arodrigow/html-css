@@ -1,0 +1,57 @@
+html, body, section, div, svg, h1{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 2vw;
+}
+
+#atf{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer{
+  height: 18rem;
+  width: 30rem;
+  border: 2px solid DodgerBlue;
+  border-radius: 15px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner{
+  height: 33%;
+  width: 90%;
+  border-bottom: 1px solid DodgerBlue;
+
+  display: flex;
+  align-items: center;
+  font-size: 0.5rem;
+  color: DodgerBlue;
+}
+
+svg{
+  height: 100%;
+  width: 5rem;
+  fill: DodgerBlue;
+}
+
+#i2{
+  flex-flow: row-reverse nowrap;
+}
+#i3{
+  border:0;
+}
+
+h1{
+  font-weight: normal;
+}
