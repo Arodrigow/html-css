@@ -1,0 +1,70 @@
+html, body, svg,section,div,h1{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 2vw;
+}
+
+#atf{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card, .card>div{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1rem;
+}
+
+.card{
+  height: 12rem;
+  width: 10rem;
+
+  border: 1px solid Tan;
+  border-radius: 3px;
+  box-shadow: -2px 2px 2px black;
+}
+
+.card>div{
+  height: 100%;
+  width: 100%;
+}
+#product{
+  height: 80%;
+}
+#price{
+  height: 20%;
+}
+
+svg{
+  height: 80%;
+  width: 80%;
+  fill: Peru;
+}
+
+#product > h1{
+  height: 20%;
+  width: 100%;
+
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: normal;
+
+  color: SaddleBrown;
+}
+
+#price{
+  font-size: 0.8rem;
+
+  background-color: Tan;
+  color: SaddleBrown;
+}
