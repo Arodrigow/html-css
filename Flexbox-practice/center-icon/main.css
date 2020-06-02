@@ -1,0 +1,28 @@
+html, body, section, div, svg{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 2.5vw;
+}
+
+section{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg{
+  height: 10rem;
+  width: 10rem;
+
+  padding: 2rem;
+
+  fill: LightSlateGray;
+  border: 2px solid Gainsboro;
+  border-radius: 100%;
+}
