@@ -9,12 +9,45 @@ body{
 /* HEADER  */
 header{
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
 
-  height: 5rem;
+  height: 7rem;
 }
+.links{
+  display: none;
+}
+.linha{
+  width: 30%;
+  height: 0.75rem;
 
+  align-self: baseline;
+
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+header div{
+  width: 90%;
+  height: 2rem;
+  margin-bottom: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div a{
+  width: 6rem;
+  height: 1.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(240, 240, 240);
+
+  color: gray;
+  font-size: 0.8rem;
+}
 header>h1{
   height: inherit;
   width: 80%;
@@ -102,12 +135,16 @@ section>a{
   margin: 1.5rem;
   align-self: center;
 }
-section>ol{
+img {
+    display: none;
+}
+
+section aside >ol{
   list-style:decimal;
   list-style-position: inside;
   color: rgb(120, 120, 120);
 }
-section ol li{
+section aside ol li{
     line-height: 1.8rem;
 }
 
@@ -224,4 +261,17 @@ tbody tr:nth-child(even){
 }
 tbody tr td:nth-child(1){
 font-weight: bold;
+}
+
+/* IMAGE AT 600px */
+@media all and (min-width: 600px) {
+    /*adds image of radon entering house*/
+    img {
+        display: block;
+          width: 40%;
+    }
+    section aside {
+    display: flex;
+    justify-content: space-around;
+  }
 }
