@@ -6,3 +6,11 @@ img{
   max-width: 15rem;
   max-height: 15rem;
 }
+
+.front{
+  background-image: url("../assets/img/fam_blur.jpg");
+}
+
+.aboutUsPhoto{
+  background-image: url("../assets/img/us_left_web_30.jpg");
+}
