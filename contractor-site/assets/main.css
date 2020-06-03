@@ -1,0 +1,82 @@
+html{
+  font-family: sans-serif;
+}
+body{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 5rem;
+}
+
+header>h1{
+  height: inherit;
+  width: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-size: 2rem;
+  color: rgb(65, 65, 65);
+  text-transform: uppercase;
+}
+
+.front{
+  width: 100%;
+  height: 35rem;
+  padding: 10% 3%;
+
+  background-image: url("../assets/img/fam_blur_under_600_web_medium.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: white;
+}
+
+.front>h1{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 8rem;
+}
+
+.front>h2{
+  font-size: 1.2rem;
+  font-weight: normal;
+
+  line-height: 2rem;
+
+  margin-bottom: 3rem;
+}
+
+section{
+  border: 2px solid green;
+}
+
+footer{
+  border: 2px solid yellow;
+}
+
+.testHome{
+  background-color: red;
+  width: 15rem;
+  height: 2.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
