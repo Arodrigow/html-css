@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="position">
+        <div id="atf">
+            <nav id="teste" class="transp abs">
+                <a href="#" class="btn transp-b">Home</a>
+                <a href="#" class="btn transp-b">About</a>
+                <a href="#" class="btn transp-b">Web Dev</a>
+                <a href="#" class="btn transp-b">Water Engineering</a>
+            </nav>
+        </div>
+        <div class="card">
+            <a href="#" class="imgm"><img src="./teste.png" alt="Teste"></a>
+            <a href="#" class="txt">
+                <h2>Teste title</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h4>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#" class="imgm"><img src="./teste.png" alt="Teste"></a>
+            <a href="#" class="txt">
+                <h2>Teste title</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h4>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#" class="imgm"><img src="./teste.png" alt="Teste"></a>
+            <a href="#" class="txt">
+                <h2>Teste title</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h4>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#" class="imgm"><img src="./teste.png" alt="Teste"></a>
+            <a href="#" class="txt">
+                <h2>Teste title</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h4>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#" class="imgm"><img src="./teste.png" alt="Teste"></a>
+            <a href="#" class="txt">
+                <h2>Teste title</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h4>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#" class="imgm"><img src="./teste.png" alt="Teste"></a>
+            <a href="#" class="txt">
+                <h2>Teste title</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h4>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#" class="imgm"><img src="./teste.png" alt="Teste"></a>
+            <a href="#" class="txt">
+                <h2>Teste title</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h4>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#" class="imgm"><img src="./teste.png" alt="Teste"></a>
+            <a href="#" class="txt">
+                <h2>Teste title</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h4>
+            </a>
+        </div>
+        <div class="card">
+            <a href="#" class="imgm"><img src="./teste.png" alt="Teste"></a>
+            <a href="#" class="txt">
+                <h2>Teste title</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h4>
+            </a>
+        </div>
+
+    </div>
+
+    <script>
+        window.addEventListener("scroll", function (event) {
+            let btns = document.querySelectorAll('.btn')
+
+            if (this.scrollY > 100) {
+                teste.classList.add("solid")
+                teste.classList.remove("transp")
+                for (let i = 0; i < btns.length; ++i) {
+                    btns[i].classList.add("solid-b")
+                    btns[i].classList.remove("transp-b")
+                }
+            } else {
+                teste.classList.remove("solid")
+                teste.classList.add("transp")
+                for (let i = 0; i < btns.length; ++i) {
+                    btns[i].classList.remove("solid-b")
+                    btns[i].classList.add("transp-b")
+                }
+            }
+            if ((atf.getBoundingClientRect().bottom - teste.getBoundingClientRect().height) <= 0) {
+                teste.classList.add("fix")
+                teste.classList.remove("abs")
+            } else {
+                teste.classList.add("abs")
+                teste.classList.remove("fix")
+            }
+        }); 
+    </script>
+</body>
+
+</html>

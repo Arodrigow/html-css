@@ -1,0 +1,135 @@
+html, body, div, a, img,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+html{
+    font-size: 1.3vw;
+}
+
+/*body{
+    height: 2000px;
+}*/
+
+#atf{
+    height: 100vh;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+#position{
+    height: 100%;
+    background-color:rgb(224, 221, 221);
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#position>h1{
+    color: #302b63;
+    text-align: center;
+    font-size: 2rem;
+
+    margin-top: 3rem;
+}
+
+.card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 3rem;
+    padding: 0.5rem;
+
+    box-shadow:0px 2px 3px 1px rgb(0, 0, 0);
+    width: 90%;
+    height: 12rem;
+}
+
+.txt{
+    width: 70%;
+    height: 80%;
+
+    margin-left: 1rem;
+    border-left: 1px solid #302b63;
+    text-decoration: none;
+}
+.txt h2{
+    font-size: 2rem;
+    color:#302b63;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.txt h4{
+    font-size: 1rem;
+    color:#8b87af;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.imgm{
+    width: 30%;
+    height: 90%;
+}
+.imgm img{
+    width: 100%;
+    height: 100%;
+}
+#teste{   
+    height: 2.3rem;
+    width: 100%;
+    z-index: 500;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    box-shadow: 0px 8px 15px 3px rgb(181, 181, 189);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    
+    height: 80%;
+    width: 15%;
+}
+
+.btn:hover{
+    /*border: 1px solid black;*/
+    border-radius: 5px;
+    
+    background-color: rgba(195, 195, 201, 0.63);
+}
+/*Control classes of the nav-bar*/
+.abs{
+    position: absolute;
+    bottom: 0;
+}
+.fix{
+    position: fixed;
+    top: 0;
+}
+
+.solid{
+    background-color: white;
+}
+.transp{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*Control the buttons of the navbar*/
+
+.transp-b{
+    color: whitesmoke;
+}
+
+.solid-b{
+    color: #302b63;
+}
